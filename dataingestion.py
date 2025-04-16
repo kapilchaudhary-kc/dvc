@@ -11,7 +11,7 @@ data = {
 df = pd.DataFrame(data)
 
 data_dir = 'data'
-os.makedir(data_dir, exist_ok = True)
+os.makedirs(data_dir, exist_ok = True)
 
 file_path = os.path.join(data_dir, 'sample_data.csv')
 
